@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+            
+        <div class="tab">
+            <ul>
+                <li><a href="/bangla-for-user/">Bangla</a></li>
+                <li><a href="/english-for-user/">English</a></li>
+                <li><a href="/math-for-user/">Math</a></li>
+                <li><a class="active" href="/gk-for-user/">GK</a></li>
+            </ul>
+        </div>
+
+        <form id="all-input">
+            
+            <p>Question : <input type="text" name="question" placeholder="question"></p> 
+            <p>Option1  : <input type="text" name="op1" placeholder="option1"></p>
+            <p>Option2  : <input type="text" name="op2" placeholder="option2"></p>
+            <p>Option3  : <input type="text" name="op3" placeholder="option3"></p>
+            <p class="ans">Answer   : <input type="text" name="answer" placeholder="Answer" id="answer"></p> 
+
+            <p id="submitting"></p>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <script src="script.js">    </script>
+</body>
+</html>
